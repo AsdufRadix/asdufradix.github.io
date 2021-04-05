@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Prime";
+    src: url("Prime/Prime-Light.woff")
+}
+
+@tailwind base;
+
+* {
+    font-family: "Prime", serif;
+    font-weight: bolder;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+<html lang="es">
+    <head>
+        <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+
+        <title>AsdufRadix</title>        
+    </head>
+
+    <!-- Tailwind classes on the body to et the gradient to expand to whole screen c: -->
+    <body class="bg-gradient-to-r from-red-400 to-yellow-400">
+        <!-- Wrapper div -->
+        <div class="flex min-h-screen justify-center items-center">
+            <!-- Container div -->
+            <div class="items-center w-3/4 m-auto flex flex-col sm:flex-row container box-content text-2xl xl:text-3xl 2xl:text-4xl bg-white rounded-2xl ring ring-opacity-60 shadow-xl p-4 sm:space-x-4">
+                <!-- Info div -->
+                <div class="w-full sm:w-1/2 flex flex-col items-center">
+                    <p class="select-none">AsdufRadix</p>
+                    <img class="object-contain rounded-2xl m-4 select-none" src="res/mugshot.png" alt="AsdufRadix Mugshot">
+                </div>
+
+                <!-- Link cards -->
+                <div class="w-full sm:w-1/2 flex flex-col items-center">
+                    <!--  rounded-lg border-2 border-gray-400  -->
+                    <button class="w-full justify-center m-2 bg-white text-black inline-flex items-center rounded-2xl transition duration-200 ease-in-out hover:bg-purple-500 hover:text-white transform hover:scale-105 hover:rotate-3 hover:z-10" onclick="location.href='https://www.twitch.tv/asdufradix'">
+                        <img class="fill-current w-4 h-4 mr-2" src="res/twitch.svg" alt="Twitch Logo">
+                        <span>Twitch</span>
+                    </button>
+                    <button class="w-full justify-center m-2 bg-white text-black inline-flex items-center rounded-2xl transition duration-200 ease-in-out hover:bg-red-500 hover:text-white transform hover:scale-105 hover:rotate-3 hover:z-10" onclick="location.href='https://www.youtube.com/channel/UCMYRvGJF4VetYHv1COaVJFA'">
+                        <img class="fill-current w-4 h-4 mr-2" src="res/youtube.svg" alt="YouTube Logo">
+                        <span>YouTube</span>
+                    </button>
+                    <button class="w-full justify-center m-2 bg-white text-black inline-flex items-center rounded-2xl transition duration-200 ease-in-out hover:bg-pink-500 hover:text-white transform hover:scale-105 hover:rotate-3 hover:z-10" onclick="location.href='https://www.instagram.com/asdufradix'">
+                        <img class="fill-current w-4 h-4 mr-2" src="res/instagram.svg" alt="Instagram Logo">
+                        <span>Instagram</span>
+                    </button>
+                    <button class="w-full justify-center m-2 bg-white text-black inline-flex items-center rounded-2xl transition duration-200 ease-in-out hover:bg-gray-500 hover:text-white transform hover:scale-105 hover:rotate-3 hover:z-10" onclick="location.href='https://www.tiktok.com/@asdufradix'">
+                        <img class="fill-current w-4 h-4 mr-2" src="res/tiktok.svg" alt="TikTok Logo">
+                        <span>TikTok</span>
+                    </button>
+                </div>
+                
+            </div>
+         </div>
+        
+    </body>
+
+</html>
